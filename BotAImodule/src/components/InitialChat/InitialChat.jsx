@@ -25,12 +25,7 @@ const InitialChat = ({ generateResponse }) => {
   ];
 
   return (
-    <Stack
-      height={1}
-      justifyContent={"flex-end"}
-      p={{ xs: 2, md: 3 }}
-      border={"1px solid red"}
-    >
+    <Stack height={1} justifyContent={"flex-end"} p={{ xs: 2, md: 3 }}>
       <Stack alignItems={"center"} spacing={2} my={5}>
         <Typography variant="h2" fontWeight={500}>
           How Can I Help You Today?
